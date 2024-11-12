@@ -30,7 +30,7 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 Create a new environment of project 
 
 ```
-conda create -p venv python==3.7 -y
+conda create -p venv python==3.12.0 -y
 
 ```
 

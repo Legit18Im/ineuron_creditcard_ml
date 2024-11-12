@@ -1,0 +1,9 @@
+Flask
+gunicorn
+matplotlib
+seaborn
+pandas
+numpy
+scikit_learn
+Flask_pymongo
+python==3.11.0

@@ -21,7 +21,7 @@ with open('./Models/xgbmodel.pkl' , 'rb') as f:
     xgb_model = pickle.load(f)
 
 app.layout = html.Div([
-        html.H1(children = 'Credit Card Default Prediction -  Utkarsh Gaikwad',
+        html.H1(children = 'Credit Card Default Prediction -  Jay Shahapurakar',
                 style = {'textAlign':'center'}),
 
         html.Br(),
@@ -30,7 +30,7 @@ app.layout = html.Div([
         dcc.Link(
             children='GitHub Repository for this project',
             refresh=True,
-            href='https://github.com/utkarshg1/Credit-Card-Default-Prediction-Utkarsh'),
+            href='https://github.com/Legit18Im/ineuron_creditcard_ml'),
 
         html.Br(),
         html.Br(),

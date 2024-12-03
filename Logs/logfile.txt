@@ -1,0 +1,18 @@
+2024-12-03 10:48:31,141:INFO:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-12-03 10:48:31,141:INFO:NumExpr defaulting to 8 threads.
+2024-12-03 10:49:11,374:INFO:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-12-03 10:49:11,374:INFO:NumExpr defaulting to 8 threads.
+2024-12-03 10:49:13,509:INFO:Dash is running on http://127.0.0.1:8050/
+
+2024-12-03 10:49:14,976:INFO:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-12-03 10:49:14,976:INFO:NumExpr defaulting to 8 threads.
+2024-12-03 10:53:24,640:DEBUG:Click Number : 1
+2024-12-03 10:53:24,693:INFO:dataframe initial - 
+  LIMIT_BAL SEX EDUCATION MARRIAGE AGE PAY_0 PAY_2 PAY_3 PAY_4 PAY_5 PAY_6 BILL_AMT1 BILL_AMT2 BILL_AMT3 BILL_AMT4 BILL_AMT5 BILL_AMT6 PAY_AMT1 PAY_AMT2 PAY_AMT3 PAY_AMT4 PAY_AMT5 PAY_AMT6
+0         0   1         1        2  22     1     1     0    -1     2     0       200       500        50        56        86        87       89       45       88      654       45     2223
+2024-12-03 10:53:24,697:INFO:dataframe processed -
+   LIMIT_BAL  AGE  PAY_0  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  SEX_1  SEX_2  EDUCATION_0  EDUCATION_1  EDUCATION_2  EDUCATION_3  EDUCATION_4  EDUCATION_5  EDUCATION_6  MARRIAGE_0  MARRIAGE_1  MARRIAGE_2  MARRIAGE_3
+0          0   22      1      1      0     -1      2      0        200        500         50         56         86         87        89        45        88       654        45      2223      1    0.0          0.0            1          0.0          0.0          0.0          0.0          0.0         0.0         0.0           1         0.0
+2024-12-03 10:53:24,716:INFO:Will Default : No
+2024-12-03 10:53:24,716:INFO:[[0.7268094 0.2731906]]
+2024-12-03 10:53:24,716:INFO:Server Ran Successfully

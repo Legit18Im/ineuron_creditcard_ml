@@ -3,8 +3,12 @@
 import dash
 from dash import dcc,html
 from dash.dependencies import Input, Output, State
-
+import os
 import logging
+
+# Ensure the 'Logs' directory exists
+log_dir = './Logs'
+os.makedirs(log_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
 logging.basicConfig(filename='./Logs/logfile.txt',level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
@@ -17,7 +21,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 # load saved model
-with open('./Models/xgbmodel.pkl' , 'rb') as f:
+with open('./Modelss/xgbmodel.pkl' , 'rb') as f:
     xgb_model = pickle.load(f)
 
 app.layout = html.Div([

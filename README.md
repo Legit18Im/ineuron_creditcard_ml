@@ -17,8 +17,6 @@ This project is divided into two part:
     - Get the customer information from Web app
     - Display the prediction 
 
-## Installation
-The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries.
 
 ## Software and Tools Required
 
@@ -62,7 +60,7 @@ git config --global user.email "jayshahapurakar@gmail.com"
 
 
 #### I have deployed this model to Amazon Web Services (AWS)
-#### Link:http://creditcarddefaultapp-env.eba-imh7xzpd.ap-south-1.elasticbeanstalk.com
+#### Link:
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
@@ -80,3 +78,9 @@ git config --global user.email "jayshahapurakar@gmail.com"
 
 
  conda activate E:\CreditCardDefaultPrediction-main\cred
+
+
+ pip freeze > requirements.txt
+ web: python app.py
+
+ heroku login

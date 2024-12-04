@@ -34,3 +34,9 @@
 2024-12-03 16:39:28,958:INFO:Will Default : No
 2024-12-03 16:39:28,958:INFO:[[0.6036367  0.39636332]]
 2024-12-03 16:39:28,958:INFO:Server Ran Successfully
+2024-12-03 19:24:56,361:INFO:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-12-03 19:24:56,362:INFO:NumExpr defaulting to 8 threads.
+2024-12-03 19:25:00,504:INFO:Dash is running on http://127.0.0.1:8050/
+
+2024-12-03 19:25:04,154:INFO:Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-12-03 19:25:04,154:INFO:NumExpr defaulting to 8 threads.
